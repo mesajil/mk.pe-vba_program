@@ -55,3 +55,16 @@ Sub pegar()
 End Sub
 
 ```
+Sub copiar_a_la_derecha()
+    Selection.Copy
+    x = Selection.Cells(1, 1).Address(False, False)
+    Range(x).Offset(0, 3).Select
+    ActiveSheet.Paste
+End Sub
+```
+
+```
+
+```
+
+```
